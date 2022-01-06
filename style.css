@@ -7,6 +7,7 @@ h1{
 }
 h2{
     font-size: 40px;
+    line-height: 25px;
 }
 h3{
     font-size: 30px;
@@ -38,7 +39,7 @@ p{
 /*===========Header Area Start==============*/
 .flexible-container{
     display: flex;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 .half-width img{
     width: 85%;
@@ -81,3 +82,70 @@ p{
     background-color:#fff4d6;
 }
 /*===========Mission Area End===========*/
+/*=====Develop Without Limits Area Start=====*/
+#develop-area{
+    
+    
+}
+.develop-area-left{
+    width: 40%;
+    margin-left: 40px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size:200px 200px;
+    background-position: left;
+    
+}
+.develop-area-right{
+    width: 60%;
+    margin:0 100px;
+}
+.develop-area-left img{
+    width: 90%;
+    margin-left: 90px;
+    
+}
+/*=====Develop Without Limits Area End=====*/
+/*====Global Community area start=========*/
+.global-community-area-left{
+    width:50%;
+    margin-left: 130px;    
+}
+.global-community-area-right{
+    width:40%;
+    
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size:150px 150px;
+    background-position: bottom 25px right 95px;
+    
+}
+.global-community-area-right img{
+    width:70%; 
+    margin-bottom: 70px; 
+}
+/*====Global Community area End=========*/
+/*=====Our team area start======*/
+.our-team{
+    margin-left: 130px;
+}
+.one-fourth-width{
+    width:20%;
+    box-shadow: 10px 10px 100px lightgray;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding:10px;
+}
+.one-fourth-width img{
+    width: 100%;
+    
+}
+/*=====Our team area end======*/
+.footer-area{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.footer-area span{
+    color:red;
+}
